@@ -21,4 +21,11 @@ Inicio
         total = total + precio * n
         uds = uds + n
 
+        Escribe "Introduce el precio unitario en euros (0 para terminar):"
+        Lee precio
+        Mientras precio < 0 hacer
+            Escribe "El precio no puede ser negativo."
+            Escribe "Introduce el precio unitario en euros (0 para terminar):"
+            Lee precio
+
 Fin
