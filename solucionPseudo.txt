@@ -1,0 +1,24 @@
+Inicio
+    total = 0
+    uds = 0
+
+    Escribe "CAJA DE LA TIENDA"
+    Escribe "Introduce el precio unitario en euros (0 para terminar):"
+    Lee precio
+    Mientras precio < 0 hacer
+        Escribe "El precio no puede ser negativo."
+        Escribe "Introduce el precio unitario en euros (0 para terminar):"
+        Lee precio
+
+    Mientras precio > 0 hacer
+        Escribe "Introduce el número de unidades:"
+        Lee n
+        Mientras n <= 0 hacer
+            Escribe "La cantidad debe ser mayor que 0."
+            Escribe "Introduce el número de unidades:"
+            Lee n
+
+        total = total + precio * n
+        uds = uds + n
+
+Fin
