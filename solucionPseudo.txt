@@ -28,4 +28,23 @@ Inicio
             Escribe "Introduce el precio unitario en euros (0 para terminar):"
             Lee precio
 
+    Si uds = 0 entonces
+        Escribe "No se han registrado productos."
+    Sino
+        dto = 0
+        Si total >= 100 entonces
+            dto = 10
+        Si total >= 50 entonces
+            Si total < 100 entonces
+                dto = 5
+
+        ahorro = total * dto / 100
+        final = total - ahorro
+
+        Escribe "RESUMEN DE LA COMPRA"
+        Escribe "Unidades compradas: ", uds
+        Escribe "Importe antes del descuento: ", total, " euros"
+        Escribe "Descuento aplicado: ", dto, " %"
+        Escribe "Descuento: ", ahorro, " euros"
+        Escribe "Importe final: ", final, " euros"
 Fin
