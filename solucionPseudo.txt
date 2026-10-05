@@ -34,9 +34,8 @@ Inicio
         dto = 0
         Si total >= 100 entonces
             dto = 10
-        Si total >= 50 entonces
-            Si total < 100 entonces
-                dto = 5
+        Sino
+            dto = 5
 
         ahorro = total * dto / 100
         final = total - ahorro
