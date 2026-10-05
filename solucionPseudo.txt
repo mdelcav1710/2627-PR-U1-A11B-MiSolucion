@@ -42,9 +42,9 @@ Inicio
         final = total - ahorro
 
         Escribe "RESUMEN DE LA COMPRA"
-        Escribe "Unidades compradas: ", uds
-        Escribe "Importe antes del descuento: ", total, " euros"
-        Escribe "Descuento aplicado: ", dto, " %"
-        Escribe "Descuento: ", ahorro, " euros"
-        Escribe "Importe final: ", final, " euros"
+        Escribe "Unidades compradas: " + uds
+        Escribe "Importe antes del descuento: " + total + " euros"
+        Escribe "Descuento aplicado: " + dto + " %"
+        Escribe "Descuento: " + ahorro + " euros"
+        Escribe "Importe final: " + final + " euros"
 Fin
